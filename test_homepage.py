@@ -43,6 +43,7 @@ class TestHomepage(Baseclass):
         # print(driver.current_url)
         # driver.close()
         assert "success" in alerttext
+        assert "success in githum demo line" in alerttext
         self.driver.refresh()
 
     #@pytest.fixture(params=[("shubham", "khare@mail.com", "123432443","Male"),
